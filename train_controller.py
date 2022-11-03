@@ -12,7 +12,7 @@ from utils.ac_trainer import ActorCriticTrainer, idx_to_action
 parser = argparse.ArgumentParser()
 parser.add_argument('--vaemodel', type=str, default="saves/zvalues.npz", help="VAE Model location")
 parser.add_argument('--rnnmodel', type=str, default="saves/mdnrnn.mdl", help="RNN Model location")
-parser.add_argument('--modelout', type=str, default=20, help="Controller model save location")
+parser.add_argument('--modelout', type=str, default="saves/controller.mdl", help="Controller model save location")
 parser.add_argument('--episodes', type=int, default=1000, help="Number of Episodes to train for")
 
 
